@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>ROCK, PAPER, SCISSORS GAME</h1>
+    </header>
+
+    <main>
+        
+            <div class="score-board">
+                <div class="Budge" id="player1-label">PLAYER1</div>
+                <div class="Budge" id="player2-label">PLAYER2</div>
+                <span id="player1-score">0</span>:<span id="player2-score">0</span>
+            </div>
+
+            <div class="result">
+                <p id="result">RESULT</p>
+            </div>
+
+
+            <div class="game">
+                <div class="player1">
+                    <img id="PLAYER1" src="/img/paper_image.png" alt="">
+                    <h2>PLAYER 1</h2>
+                </div>
+                <p>VS</p>
+                <div class="player2">
+                    <img id="PLAYER2" src="/img/rock_image.png" alt="">
+                    <h2>PLAYER 2</h2>
+                </div>
+                
+            </div>
+
+            <div class="button">
+                <button onclick="play()"  value="play-btn">PLAY</button>
+            </div>
+        
+    </main>
+
+    <script src="game.js" ></script>
+    
+</body>
+</html>
