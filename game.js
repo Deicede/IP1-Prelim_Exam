@@ -86,6 +86,15 @@ function play() {
     result();    
 }
 
+function Start() {
+    let  strt = document.getElementById('start');
+    strt.style.display = "none";
+
+    let display = document.getElementById('container');
+    display.style.display = "flex";
+
+}
+
 
 
 
