@@ -19,23 +19,22 @@ header > h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.start {
-    margin: 35% auto;
-}
+
 
 .container{
     display: none;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+.start{ 
+        display: grid;
+        place-items: center;
+        
+    
 }
-
 
 .score-board{
     border: 3px solid white;
@@ -107,13 +106,107 @@ button{
     color: white;
     cursor: pointer;
     margin: 10px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     transition: all 0.3s ease;
 }
 
 button:hover{
     background-color: #484a4f;
 }
+
+@media screen and (max-width: 485px){
+    header > h1{
+        font-size: 2rem;
+    }
+   .container{
+    width: 425px;
+   }
+
+   img{
+    width: 150px;
+    margin: 10px 40px;
+}
+
+.game p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.game h2{
+    color: white;
+    margin: 20px 0;
+    font-size: 1.6rem;
+}
+
+button{
+    padding: 10px 20px;
+    width: 150px;
+    height: 70px;
+    font-size: 1.4rem;
+   
+}
+}
+
+@media screen and (max-width: 430px){
+
+   .container{
+        width: 425px;
+   }
+
+   img{
+        width: 115px;
+        
+}
+}
+
+
+@media screen and (max-width: 400px){
+    header > h1{
+        font-size: 1.5rem;
+    }
+   .container{
+        width: 395px;
+   }
+
+   img{
+        width: 115px;
+        
+}
+
+.result{
+    font-size: 2rem;
+
+}
+}
+
+@media screen and (max-width: 325px){
+    header > h1{
+        font-size: 1.rem;
+    }
+   .container{
+        width: 320px;
+   }
+
+   img{
+        width: 100px;
+        
+}
+
+.game p{
+    font-size: 1.2rem;
+    
+}
+
+.game h2{
+    margin: 20px 0;
+    font-size: 1.3rem;
+}
+
+
+
+}
+
+
 
 
 
