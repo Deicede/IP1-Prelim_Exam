@@ -29,11 +29,15 @@ header > h1 {
     align-items: center;
 }
 
+
+
 .start{ 
-        display: grid;
-        place-items: center;
-        
-    
+        display: grid; 
+        place-items: center;    
+}
+
+#start{
+    margin: 200px;
 }
 
 .score-board{

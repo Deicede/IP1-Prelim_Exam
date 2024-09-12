@@ -89,6 +89,8 @@ function play() {
 function Start() {
     let  strt = document.getElementById('start');
     strt.style.display = "none";
+    strt.style.margin = "0px";
+    
 
     let display = document.getElementById('container');
     display.style.display = "flex";
